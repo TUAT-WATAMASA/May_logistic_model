@@ -15,6 +15,7 @@ for i =1:400
         
         for k = 1:100
             z(k) = x(1000+1-k);
+        end
     hold on
     plot(a,z);
     a = a +0.01;
